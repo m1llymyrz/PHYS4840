@@ -1,8 +1,8 @@
-# !/usr/bin/python3.12.3
+#!/millmyrz/callisto/bin python3.12
 #####################################
 #
 # Myers Function Lab Library
-# Author: Amelia "Mila" Myers
+# Author: A. Mila Myers
 #
 #####################################
 
@@ -38,3 +38,10 @@ def cookie(m):
 def y(x):
  	y = 2.0*x**3.0
  	return y
+
+#Distance Modulus function
+def distance_modulus(distance): 
+	###This function computes the distance modulus for a distance that is entered by the user. The given distance must be in parsecs###
+	# m - M = 5log.10(d/10)
+	d = 5*np.log10(distance/10)
+	return(round(d,3))
