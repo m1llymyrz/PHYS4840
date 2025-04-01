@@ -1,4 +1,4 @@
-#!/usr/bin/python3.8
+#!/usr/bin/python3.12
 #####################################
 #
 # Class 14: Matrices and Linear algebra 
